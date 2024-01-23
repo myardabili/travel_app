@@ -15,3 +15,5 @@ class OnSearchDestination extends SearchDestinationEvent {
   @override
   List<Object> get props => [query];
 }
+
+class OnResetSearchDestination extends SearchDestinationEvent {}
